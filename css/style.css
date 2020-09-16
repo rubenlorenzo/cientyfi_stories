@@ -1,0 +1,44 @@
+body{
+    background-color: #e3f2fd; 
+    margin:0px 0px 0px 0px;  
+}
+
+/* Header */
+#icon_web_page{
+    width:6em;
+}
+
+#header_page{
+    background-color:#0d47a1;
+    
+}
+#header_page h1{
+    color:#cfd8dc;
+    text-shadow: -1px 0 #263238, 0 1px #263238, 1px 0 #263238, 0 -1px #263238;
+}
+#header_page h3{
+    color: #cfd8dc;      
+}
+
+#header_page nav ul{
+    list-style: none;
+    color: #cfd8dc;
+}
+
+/* Section */
+.imgArticle{
+    background-color:#607d8b;
+    width: 20em;
+    height:10em;
+}
+
+/* Aside */
+.tag{
+    color: #0277bd;
+}
+
+/* Footer */
+footer{
+    margin-top: 1em;
+    background-color: #4db6ac;
+}
