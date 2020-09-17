@@ -8,6 +8,31 @@ a{
     text-decoration: none;
 }
 
+@media only screen and (max-width: 412px) {
+    #title_page{
+        padding-left: 1.4em;
+        position: relative;
+        top: -2em;
+        margin-bottom: -1em;
+    }
+
+    #header_page nav{
+        left: -1em;
+    }
+
+    #header_page nav ul li {
+        padding-right: 0.5em;
+    }
+
+    .optionMenu{
+       font-size: 0.85em; 
+    }
+
+    .iconMenu{
+        font-size: 1em;
+    }
+}
+
 /* Header */
 #icon_web_page{
     width:5em;
@@ -31,10 +56,8 @@ a{
     font-family: 'Orbitron';
     font-size: 1.8em;
     position: relative;
-    top: 0.55em;
-    
+    top: 0.55em;  
     height: 1.3em;
-   
 }
 
 #header_page h3{
@@ -54,12 +77,10 @@ a{
     margin-left: auto;
     height: 2.5em;   
     font-size: 1em;
-    padding-bottom: 0.25em;
 }
 
 #header_page nav ul{
-    list-style: none;
-    
+    list-style: none;   
 }
 
 #header_page nav ul li{
@@ -68,8 +89,8 @@ a{
 }
 
 .optionMenu{
-    font-family: 'Fira Code Bold';
-    font-size: 1.15em;
+    font-family: 'Fira Code';
+    font-size: 1em;
     font-weight: bold;
     color: #A8ABB1;
     text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
@@ -77,8 +98,8 @@ a{
 
 .iconMenu{
     position: relative;
-    top:0.15em;
-    font-size: 1.8em;
+    top:0.09em;
+    font-size: 1.6em;
     padding-right: 0.2em;    
     color: #A8ABB1;
     text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
