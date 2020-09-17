@@ -1,28 +1,87 @@
 body{
     background-color: #e3f2fd; 
-    margin:0px 0px 0px 0px;  
+    margin:0px 0px 0px 0px; 
+    font-family: Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Header */
 #icon_web_page{
-    width:6em;
+    width:5em;
+    padding: 1em;
 }
 
 #header_page{
     background-color:#0d47a1;
-    
+    padding-top: 1.3em;
+    padding-bottom: 0.2em;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-bottom: 2px solid #006064;
+    margin-bottom: 1em;
 }
+
 #header_page h1{
-    color:#cfd8dc;
-    text-shadow: -1px 0 #263238, 0 1px #263238, 1px 0 #263238, 0 -1px #263238;
+    color:#A8ABB1;
+    text-shadow: -2px 0 #263238, 0 2px #263238, 2px 0 #263238, 0 -2px #263238;
+    font-family: 'Orbitron';
+    font-size: 1.8em;
+    position: relative;
+    top: 0.55em;
+    
+    height: 1.3em;
+   
 }
+
 #header_page h3{
-    color: #cfd8dc;      
+    color: #A8ABB1;
+    font-size: 0.95em; 
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
+    height: 1.2em;
+    font-family: 'Fira Code';
+    position: relative;
+    left: 0.3em;
+}
+
+#header_page nav{    
+    align-self: flex-end;
+    position: relative;
+    top:-0.7em;
+    margin-left: auto;
+    height: 2.5em;   
+    font-size: 1em;
+    padding-bottom: 0.25em;
 }
 
 #header_page nav ul{
     list-style: none;
-    color: #cfd8dc;
+    
+}
+
+#header_page nav ul li{
+    display: inline;
+    padding-right: 1.5em;
+}
+
+.optionMenu{
+    font-family: 'Fira Code Bold';
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #A8ABB1;
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
+}
+
+.iconMenu{
+    position: relative;
+    top:0.15em;
+    font-size: 1.8em;
+    padding-right: 0.2em;    
+    color: #A8ABB1;
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
 }
 
 /* Section */
