@@ -1,0 +1,122 @@
+#content_box{
+    width: 80%;
+    margin: 4em auto 3em auto;
+    text-align: center;
+}
+
+/* Section */
+section{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 2em;  
+}
+
+section > article{
+    width: 80%; 
+    border: 2.8px solid #b0bec5;
+    border-radius: 2px;
+    padding: 1.6em 2em 1.6em 2em;
+}
+
+section > article:nth-child(1){
+    grid-row: 1/3;
+    height: 62%; 
+}
+
+.imgArticle{
+    width: 100%;
+    border-radius: 2px;
+    border: 3px solid #b0bec5;
+}
+section > article > header > h3{
+    margin-top: 1.3em;
+    margin-bottom: 0em;
+}
+
+section > article > a {
+    text-decoration: none;
+    border: 2px solid #e3f2fd;
+    padding: 0em 0.1em 0em 0.1em;
+    font-size: 1.3em;
+    background-color: #e3f2fd;
+    color: #A8ABB1;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+
+section > article > a:hover{
+    color: #5f8faf;
+    background-color: #d3e4f0;
+    border: 2px solid #cedee9;
+    border-radius: 4px;
+}
+
+/* Aside */
+aside{
+    position: relative;
+    top:-22em;
+    right: -14%;
+    border: 2.8px solid #b0bec5;
+    border-radius: 2px;
+    width: 15em;
+    align-content: center;
+}
+
+aside > ul {
+    list-style-type: none;
+}
+
+aside > ul > li{
+    color: #0277bd;
+    padding-bottom: 1em;
+    margin-right: 2em;
+}
+
+aside > ul > li:nth-child(3){
+    padding-bottom: 0.2em;
+}
+
+@media only screen and (min-width: 2400px){
+    #content_box{
+        width: 2000px;
+    }
+
+    section > article:nth-child(1){
+        height: 58%; 
+    }
+}
+
+
+@media only screen and (max-width: 1600px){
+    .textExtra{
+        display: none;
+    }
+    section > article:nth-child(1){
+        height: 50%; 
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    section{        
+        grid-gap: 0.8%;        
+    }
+}
+
+@media only screen and (max-width: 900px){
+    
+    section{
+        grid-template-columns: 100% ;
+    }
+
+    aside{
+        position: relative;
+        top:0em;
+        right: -14%;
+    }
+
+    section > article:nth-child(1){  
+        height: 90%;   
+    }
+}
