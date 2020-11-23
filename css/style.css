@@ -1,0 +1,117 @@
+body{
+    background-color: #e3f2fd; 
+    margin:0 auto; 
+    font-family: Helvetica, sans-serif;
+    color: #004d50;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+#icon_web_page{
+    width:5em;
+    padding: 1em;
+}
+
+#header_page{
+    background-image: url(../img/bg-header1.jpg);
+    padding-top: 1.3em;
+    padding-bottom: 0.2em;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-bottom: 2px solid #006064;
+    margin-bottom: 1em;
+}
+
+#header_page h1{
+    color:#A8ABB1;
+    text-shadow: -2px 0 #263238, 0 2px #263238, 2px 0 #263238, 0 -2px #263238;
+    font-family: 'Orbitron';
+    font-size: 1.8em;
+    position: relative;
+    top: 0.55em;  
+    height: 1.3em;
+}
+
+#header_page h3{
+    color: #A8ABB1;
+    font-size: 0.95em; 
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
+    height: 1.2em;
+    font-family: 'Fira Code';
+    position: relative;
+    left: 0.3em;
+}
+
+#header_page nav{    
+    align-self: flex-end;
+    position: relative;
+    top:-0.7em;
+    margin-left: auto;
+    height: 2.5em;   
+    font-size: 1em;
+}
+
+#header_page nav ul{
+    list-style: none;   
+}
+
+#header_page nav ul li{
+    display: inline;
+    padding-right: 1.5em;
+}
+
+.optionMenu{
+    font-family: 'Fira Code';
+    font-size: 1em;
+    font-weight: bold;
+    color: #A8ABB1;
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
+}
+
+.iconMenu{
+    position: relative;
+    top:0.09em;
+    font-size: 1.6em;
+    padding-right: 0.2em;    
+    color: #A8ABB1;
+    text-shadow: -1.2px 0 #263238, 0 1.2px #263238, 1.2px 0 #263238, 0 -1.2px #263238;
+}
+
+/* Footer */
+footer{
+    margin-top: auto;
+    background-color: #b3dddf;
+    border-top: 2.8px solid #b0bec5;
+    padding: 1em 0em 0.5em 0em;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 412px) {
+    #title_page{
+        padding-left: 1.4em;
+        position: relative;
+        top: -2em;
+        margin-bottom: -1em;
+    }
+
+    #header_page nav{
+        left: -1em;
+    }
+
+    #header_page nav ul li {
+        padding-right: 0.5em;
+    }
+
+    .optionMenu{
+       font-size: 0.85em; 
+    }
+
+    .iconMenu{
+        font-size: 1em;
+    }
+}
