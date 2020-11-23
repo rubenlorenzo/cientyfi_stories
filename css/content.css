@@ -119,4 +119,12 @@ aside > ul > li:nth-child(3){
     section > article:nth-child(1){  
         height: 90%;   
     }
+
+    aside{
+        position: relative;
+        top: 1.5em;
+        right: 1%;
+        margin: 2em auto;
+        width: 15em;
+    }
 }
